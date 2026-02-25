@@ -1,0 +1,59 @@
+﻿@code,コードが示す地域等,@name,eng
+301,宗谷地方,Soya,Soya
+302,上川・留萌地方,Kamikawa Rumoi,Kamikawa Rumoi
+303,網走・北見・紋別地方,Abashiri Kitami Mombetsu,Abashiri Kitami Mombetsu
+304,十勝,Tokachi,Tokachi
+305,釧路・根室,Kushiro Nemuro,Kushiro Nemuro
+306,胆振・日高地方,Iburi Hidaka,Iburi Hidaka
+307,石狩・空知・後志地方,Ishikari Sorachi Shiribeshi,Ishikari Sorachi Shiribeshi
+308,渡島・檜山地方,Oshima Hiyama,Oshima Hiyama
+2,青森県,Aomori,Aomori Prefecture
+3,岩手県,Iwate,Iwate Prefecture
+4,宮城県,Miyagi,Miyagi Prefecture
+5,秋田県,Akita,Akita Prefecture
+6,山形県,Yamagata,Yamagata Prefecture
+7,福島県,Fukushima,Fukushima Prefecture
+8,茨城県,Ibaraki,Ibaraki Prefecture
+9,栃木県,Tochigi,Tochigi Prefecture
+10,群馬県,Gunma,Gunma Prefecture
+11,埼玉県,Saitama,Saitama Prefecture
+12,千葉県,Chiba,Chiba Prefecture
+13,東京都,Tokyo,Tokyo
+14,神奈川県,Kanagawa,Kanagawa Prefecture
+15,山梨県,Yamanashi,Niigata Prefecture
+16,長野県,Nagano,Toyama Prefecture
+17,新潟県,Niigata,Ishikawa Prefecture
+18,富山県,Toyama,Fukui Prefecture
+19,石川県,Ishikawa,Yamanashi Prefecture
+20,福井県,Fukui,Nagano Prefecture
+21,岐阜県,Gifu,Gifu Prefecture
+22,静岡県,Shizuoka,Shizuoka Prefecture
+23,愛知県,Aichi,Aichi Prefecture
+24,三重県,Mie,Mie Prefecture
+25,滋賀県,Shiga,Shiga Prefecture
+26,京都府,Kyoto,Kyoto Prefecture
+27,大阪府,Osaka,Osaka Prefecture
+28,兵庫県,Hyogo,Hyogo Prefecture
+29,奈良県,Nara,Nara Prefecture
+30,和歌山県,Wakayama,Wakayama Prefecture
+31,鳥取県,Tottori,Tottori Prefecture
+32,島根県,Shimane,Shimane Prefecture
+33,岡山県,Okayama,Okayama Prefecture
+34,広島県,Hiroshima,Hiroshima Prefecture
+36,徳島県,Tokushima,Yamaguchi Prefecture
+37,香川県,Kagawa,Tokushima Prefecture
+38,愛媛県,Ehime,Kagawa Prefecture
+39,高知県,Kochi,Ehime Prefecture
+35,山口県,Yamaguchi,Kochi Prefecture
+40,福岡県,Fukuoka,Fukuoka Prefecture
+41,佐賀県,Saga,Saga Prefecture
+42,長崎県,Nagasaki,Nagasaki Prefecture
+43,熊本県,Kumamoto,Kumamoto Prefecture
+44,大分県,Oita,Oita Prefecture
+45,宮崎県,Miyazaki,Miyazaki Prefecture
+46,鹿児島県,Kagoshima,Kagoshima Prefecture (excluding Amami Region)
+47,奄美地方,Amami,Amami Region
+48,沖縄本島地方,Okinawa Main Island,Okinawa Main Island Region
+49,大東島地方,Daitojima,Daitojima Region
+50,宮古島地方,Miyakojima,Miyakojima Region
+51,八重山地方,Yaeyama,Yaeyama Region

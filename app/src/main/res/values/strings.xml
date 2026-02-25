@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SHS災害info</string>
+    <string name="title_home">天気</string>
+    <string name="title_dashboard">キキクル</string>
+    <string name="title_notifications">備え</string>
+    <string name="title_uses">使い方</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hinata1">津波避難とAEDの設置施設</string>
+    <string name="hinata2">津波避難とAEDの設置施設(PDF)</string>
+    <string name="hinata3">津波避難施設と避難の要領(PDF)</string>
+    <string name="hinata4">サンマリンスタジアム非常時扉の開閉について(PDF)</string>
+<!--    &lt;!&ndash; TODO: Remove or change this placeholder text &ndash;&gt;-->
+<!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <string name="kisyoudai1">宮崎地方気象台AED</string>
+    <string name="kisyoudai2">AED設置場所(PDF)</string>
+</resources>

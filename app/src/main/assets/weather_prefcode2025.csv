@@ -1,0 +1,59 @@
+﻿@code,コードが示す地域等,@name,eng,vi,cha
+301,宗谷地方,Soya,Soya,Vùng Soya,宗谷地方
+302,上川・留萌地方,Kamikawa Rumoi,Kamikawa Rumoi,Vùng Kamikawa và Rumoi,上川・留萌地区
+303,網走・北見・紋別地方,Abashiri Kitami Mombetsu,Abashiri Kitami Mombetsu,Vùng Abashiri - Kitami - Monbetsu,网走・北见・纹別地方
+304,十勝,Tokachi,Tokachi,Vùng Tokachi,十胜地方
+305,釧路・根室,Kushiro Nemuro,Kushiro Nemuro,Vùng Kushiro - Nemuro - Tokachi,钏路·根室地区
+306,胆振・日高地方,Iburi Hidaka,Iburi Hidaka,Vùng Iburi và Hidaka,胆振・日高地区
+307,石狩・空知・後志地方,Ishikari Sorachi Shiribeshi,Ishikari Sorachi Shiribeshi,Vùng Ishikari - Sorachi - Shiribeshi,石狩・空知・后志地区
+308,渡島・檜山地方,Oshima Hiyama,Oshima Hiyama,Vùng Oshima - Hiyama,渡岛・桧山地区
+2,青森県,Aomori,Aomori Prefecture,Tỉnh Aomori,青森县
+3,岩手県,Iwate,Iwate Prefecture,Tỉnh Iwate,岩手县
+4,宮城県,Miyagi,Miyagi Prefecture,Tỉnh Miyagi,宫城县
+5,秋田県,Akita,Akita Prefecture,Tỉnh Akita,秋田县
+6,山形県,Yamagata,Yamagata Prefecture,Tỉnh Yamagata,山形县
+7,福島県,Fukushima,Fukushima Prefecture,Tỉnh Fukushima,福岛县
+8,茨城県,Ibaraki,Ibaraki Prefecture,Tỉnh Ibaraki,茨城县
+9,栃木県,Tochigi,Tochigi Prefecture,Tỉnh Tochigi,栃木县
+10,群馬県,Gunma,Gunma Prefecture,Tỉnh Gunma,群马县
+11,埼玉県,Saitama,Saitama Prefecture,Tỉnh Saitama,埼玉县
+12,千葉県,Chiba,Chiba Prefecture,Tỉnh Chiba,千叶县
+13,東京都,Tokyo,Tokyo,Thủ đô Tokyo,东京都
+14,神奈川県,Kanagawa,Kanagawa Prefecture,Tỉnh Kanagawa,神奈川县
+15,新潟県,Niigata,Niigata Prefecture,Tỉnh Niigata,新泻县
+16,富山県,Toyama,Toyama Prefecture,Tỉnh Toyama,富山县
+17,石川県,Ishikawa,Ishikawa Prefecture,Tỉnh Ishikawa,石川县
+18,福井県,Fukui,Fukui Prefecture,Tỉnh Fukui,福井县
+19,山梨県,Yamanashi,Yamanashi Prefecture,Tỉnh Yamanashi,山梨县
+20,長野県,Nagano,Nagano Prefecture,Tỉnh Nagano,长野县
+21,岐阜県,Gifu,Gifu Prefecture,Tỉnh Gifu,岐阜县
+22,静岡県,Shizuoka,Shizuoka Prefecture,Tỉnh Shizuoka,静冈县
+23,愛知県,Aichi,Aichi Prefecture,Tỉnh Aichi,爱知县
+24,三重県,Mie,Mie Prefecture,Tỉnh Mie,三重县
+25,滋賀県,Shiga,Shiga Prefecture,Tỉnh Shiga,滋贺县
+26,京都府,Kyoto,Kyoto Prefecture,Tỉnh Kyoto,京都府
+27,大阪府,Osaka,Osaka Prefecture,Tỉnh Osaka,大阪府
+28,兵庫県,Hyogo,Hyogo Prefecture,Tỉnh Hyogo,兵库县
+29,奈良県,Nara,Nara Prefecture,Tỉnh Nara,奈良县
+30,和歌山県,Wakayama,Wakayama Prefecture,Tỉnh Wakayama,和歌山县
+31,鳥取県,Tottori,Tottori Prefecture,Tỉnh Tottori,鸟取县
+32,島根県,Shimane,Shimane Prefecture,Tỉnh Shimane,岛根县
+33,岡山県,Okayama,Okayama Prefecture,Tỉnh Okayama,冈山县
+34,広島県,Hiroshima,Hiroshima Prefecture,Tỉnh Hiroshima,广岛县
+35,山口県,Yamaguchi,Yamaguchi Prefecture,Tỉnh Yamaguchi,山口县
+36,徳島県,Tokushima,Tokushima Prefecture,Tỉnh Tokushima,德岛县
+37,香川県,Kagawa,Kagawa Prefecture,Tỉnh Kagawa,香川县
+38,愛媛県,Ehime,Ehime Prefecture,Tỉnh Ehime,爱媛县
+39,高知県,Kochi,Kochi Prefecture,Tỉnh Kochi,高知县
+40,福岡県,Fukuoka,Fukuoka Prefecture,Tỉnh Fukuoka,福冈县
+41,佐賀県,Saga,Saga Prefecture,Tỉnh Saga,佐贺县
+42,長崎県,Nagasaki,Nagasaki Prefecture,Tỉnh Nagasaki,长崎县
+43,熊本県,Kumamoto,Kumamoto Prefecture,Tỉnh Kumamoto,熊本县
+44,大分県,Oita,Oita Prefecture,Tỉnh Oita,大分县
+45,宮崎県,Miyazaki,Miyazaki Prefecture,Tỉnh Miyazaki,宫崎县
+46,鹿児島県（奄美地方除く）,Kagoshima,Kagoshima Prefecture (excluding Amami Region),Tỉnh Kagoshima (ngoại trừ vùng Amami),鹿儿岛县（奄美地方除外）
+47,奄美地方,Amami,Amami Region,Vùng Amami,奄美地方
+48,沖縄本島地方,Okinawa Main Island,Okinawa Main Island Region,Vùng đảo chính Okinawa,冲绳本岛地方
+49,大東島地方,Daitojima,Daitojima Region,Vùng Daitojima,大东岛地方
+50,宮古島地方,Miyakojima,Miyakojima Region,Vùng Miyakojima,宫古岛地方
+51,八重山地方,Yaeyama,Yaeyama Region,Vùng Yaeyama,八重山地方

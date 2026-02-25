@@ -1,0 +1,171 @@
+﻿no,page,jap,eng,small
+0,tenki,雨雲,Nowcasts,あまぐも
+1,tenki,雷,Thunder,かみなり
+2,tenki,台風,Typhoon,たいふう
+3,tenki,地点登録,Point registration,とうろく
+4,tenki,天気,Weather,てんき
+5,tenki,地震,Earthquake,じしん
+6,tenki,火山,Volcano,かざん
+7,tenki,警報,Alert,けいほう
+0,kikikuru,土砂災害,Landslide risk,どしゃさいがい
+1,kikikuru,浸水害,Inundation risk,しんすい
+2,kikikuru,洪水害,Flood risk,こうずい
+3,kikikuru,雨雲,Nowcasts,あまぐも
+0,sonae,非常用品,Emergency supplies,ひじょうようひん
+1,sonae,大雨時の行動,Behavior during heavy rain,おおあめのときのこうどう
+2,sonae,警戒レベル,Vigilance level,けいほうレベル
+3,sonae,避難所,Shelter,ひなんするばしょ
+4,sonae,ハザードマップ,Hazard map,ハザードマップ
+5,sonae,避難所の保存,Saving evacuation sites,ひなんするばしょのかくにん
+6,sonae,ハザードマップの保存,Save hazard map,ハザードマップのほぞん
+7,sonae,浸水深さ,Inundation depth,しんすいのふかさ
+8,sonae,公共施設の防災,Disaster prevention for public facilities,公共施設の防災
+0,kikikuru1,雨雲と重ねるキキクルを選んでください,choose the kikikuru map which overlap with clouds map,あまぐもとかさねるききくるをえらんでください
+1,kikikuru1,雨雲viewの透過度,transparency of clouds view,
+2,kikikuru1,折りたたむ,close,とじる
+3,kikikuru1,コントローラーの表示,display controller,ひょうじ
+25,shinsui,現在地住所,current address,いまいるばしょのじゅうしょ
+26,shinsui,現在地の標高,current elevation,いまいるばしょのたかさ
+27,shinsui,現在地の最大想定浸水深さ,estimated inundation depth of current location,
+0,mochi,懐中電灯,flashlight,かいちゅうでんとう
+1,mochi,モバイルバッテリー,mobile battery,モバイルバッテリー
+2,mochi,予備の電池,spare battery,でんち
+3,mochi,ラジオ,radio,ラジオ
+4,mochi,貴重品,Valuables,きちょうひん
+5,mochi,衣類・下着,clothing/underwear,ようふく・したぎ
+6,mochi,保存食,preserved food,ほぞんしょく
+7,mochi,ライター,lighter,ライター
+8,mochi,防寒グッズ,cold weather goods,ぼうかんぐっず
+9,mochi,救急用品,first aid supplies,きゅうきゅうようひん
+10,mochi,携帯電話,cell phone,けいたいでんわ
+11,mochi,衛生用品,hygiene products,えいせいようひん
+12,mochi,筆記用具,writing utensil,ひっきようぐ
+13,mochi,赤ちゃんに必要なもの,baby needs,あかちゃんにひつようなもの
+14,mochi,犬に必要なもの,dog needs,いぬにひつようなもの
+15,mochi,大きな地震が起きると家具や家電が倒れてきたり、ガラスが割れて床に飛び散ったりします。このような地震が夜にくると部屋が真っ暗で避難するのも大変です。そんなときに懐中電灯があると辺りを照らすことができるので、危ないものを避けて避難することができます。,When a big earthquake occurs、 furniture and home appliances fall over、 and glass breaks and scatters on the floor. When an earthquake like this comes at night、 it's hard to evacuate because the room is pitch black. then、with a flashlight、 you can illuminate the area、 so you can avoid dangerous things and evacuate.,おおきなじしんがおきるとかぐやかでんがたおれてきたり、がらすがわれてゆかにとびちったりします。このようなじしんがよるにくるとへやがまっくらでひなんするのもたいへんです。そんなときにかいちゅうでんとうがあるとまわりをてらすことができるので、あぶないものをさけてひなんすることができます。
+16,mochi,情報収集したり家族の安否を確認したりするためには、スマホは必需品です。しかし、災害時に停電が起こるとスマホの充電ができなくなります。そのために、モバイルバッテリーがあると停電中でも心の余裕を持つことができます。,Smartphones are essential items for collecting information and checking the safety of family members. but if a power outage occurs during a disaster、 you will not be able to charge your smartphone.  so with a mobile battery、 you can have peace of mind even during a power outage.,じょうほうをあつめたりかぞくのあんぜんをかくにんしたりするためには、スマホはひつようなものです。しかし、さいがいのときにていでんがおこるとスマホのじゅうでんができなくなります。そのために、モバイルバッテリーがあるとていでんちゅうでもこころのよゆうをもつことができます。
+17,mochi,ライトやラジオも電池がないと使うことができません。予備があれば電池の減りなど気にせず使えることができ、安心します。乾電池は液漏れ防止のものを選びましょう。,Lights and radios cannot be used without batteries. If you have a spare、 you can use it without worrying about the battery running out、 so you can rest assured. Choose batteries that do not leak.,ライトやラジオもでんちがないとつかうことができません。よびがあればでんちのへりなどきにせずつかえることができ、あんしんします。
+18,mochi,停電時や災害の際、テレビが見れなくなったり、ネットが繋がらなかったり、情報を得たとしてもそれがデマ情報だった場合もあります。スマホと違って消費電力が少なく、被災した地域をメインに情報を伝えることができます。,In the event of a power outage or disaster、 you may not be able to watch TV or connect to the Internet、 or even if you get information、 it may be false information. Unlike smartphones、 it consumes less power and can mainly receive information about the affected areas.,ていでんのときやさいがいのとき、テレビがみれなくなったり、ネットがつながらなかったり、じょうほうをえたとしてもそれがまちがったじょうほうだったばあいもあります。スマホとちがってつかうでんりょくがすくなく、さいがいのおこったちいきをめいんにじょうほうをつたえることができます。
+19,mochi,・現金（硬貨）,cash (coin),おかね
+20,mochi,・通帳,passbook,つうちょう
+21,mochi,・身分証明書・各種カード,Identification、 various cards,みぶんしょうめいしょ・かくしゅかーど
+22,mochi,・印鑑,signature stamp,いんかん
+23,mochi,・家や車の予備鍵,spare house or car key,いえのかぎ
+24,mochi,停電時にはキャッシュカードが使えない可能性があるので、現金を用意しておきましょう。小銭を多めにしておくと、固定電話やスマホを使えないときに公衆電話を使うときなどに便利です。また、免許証や保険証といった身分証明書があると、被災後のさまざまな届出をする際にスムーズにことが運びます。,Cash cards may not work during power outages、 so be prepared with cash.It is convenient to have enough coins in order to use public phone when you cannot use a landline phone or a smartphone.also if you have an identification card such as a driver's license or insurance card、 things will go smoothly when making various notifications after a disaster.,
+25,mochi,雨の時に、災害がおこると服が濡れてしまい風邪をひくかもしれません。コンパクトにまとまるダウンジャケット、ダウンパンツなど暖かく軽量のものがおすすめです。できる限り替えの服もいれておくといいです。,When it rains、 if a disaster happens、 your clothes will get wet and you may catch a cold.Warm and lightweight items such as down jackets and down pants that can be put together compactly are recommended. It's good to bring a change of clothes as much as possible.,あめのときに、さいがいがおこるとふくがぬれてしまいかぜをひくかもしれません。ちいさくまとまるダウンジャケット、ダウンパンツなどあたたかくかるいものがおすすめです。できるかぎりかえのふくもいれておくといいです。
+26,mochi,・缶詰・乾パン,canned food、 dried bread,・かんづめ・かんぱん
+27,mochi,・飲料水,drinking water,・のみみず
+28,mochi,・アルファ米,alpha rice,・おこめ
+29,mochi,・チョコレート,chocolate,・チョコレート
+30,mochi,自宅が倒壊した場合は避難所での生活を送ることになります。救援物資が届くまで最短でも3日かかると想定しましょう。,If your house collapses、 you will have to live in an evacuation center. please assume that it will take at least three days for relief supplies to arrive.,いえがたおれたばあいはひなんするばしょでせいかつをおくることになります。
+31,mochi,震災時には、電気ガスが使えない可能性があります。その状況で生き延びるために火を起こすことが重要です。また、食べ物を温めたり、食べられる物を確保して加熱して食べる必要が出てくるかもしれません。,In the event of an earthquake、 electric gas may not be available. It is important to start a fire to survive in that situation. Also you may need to heat your food or find something edible to heat up before eating.,しんさいのときには、でんきガスがつかえないかのうせいがあります。そのじょうきょうでいきのびるためにひをおこすことがじゅうようです。また、たべものをあたためたり、たべられるものをかくほしてかねつしてたべるひつようがでてくるかもしれません。
+32,mochi,・毛布,blanket,・もうふ
+33,mochi,・カイロ,hot pack,・カイロ
+34,mochi,・アルミホイル,aluminum foil,・アルミホイル
+35,mochi,冬に災害が起こった場合には、寒さで寝れなかったり風邪をひいたりします。また、お年寄りや赤ちゃん、体が弱い人は、低体温症になる可能性があります。,you cannot sleep and get ill because of cold in the case of a disaster in winter.also baby、elderly、and person who is in delicate health may be hypothermia.  ,ふゆにさいがいがおこったばあいには、さむさでねれなかったりかぜをひいたりします。また、おとしよりやあかちゃん、からだがよわいひとは、ていたいおんしょうになるかのうせいがあります。
+36,mochi,大きな災害が発生するとケガをする可能性が高くなります。災害直後は医療体制も混乱することが考えられるため、応急手当てができるように救急セットを用意しておきましょう。,when the huge disaster strikes、you are likely to get hurt.make sure to prepare first aid kit to be able to first aid as immediately after a disaster、 the medical system may be confused.,おおきなさいがいがはっせいするとケガをするかのうせいがたかくなります。さいがいちょくごはいりょうたいせいもこんらんすることがかんがえられるため、おうきゅうてあてができるようにきゅうきゅうセットをよういしておきましょう。
+37,mochi,情報を収集したり家族の安否を確認するために必要になります。,it need in order to collect information and confirm the safety of family members.,じょうほうをあつめたりかぞくのあんぴをかくにんするためひつようになります。
+38,mochi,・ウェットティッシュ・トイレットペーパー,wet wipes/toilet paper,・ウエットティッシュ・トイレットペーパー
+39,mochi,・歯ブラシ,toothbrush,・はぶらし
+40,mochi,・タオル,towel,・タオル
+41,mochi,・マスク,mask,・マスク
+42,mochi,・生理用品,sanitary items,・せいりようひん
+43,mochi,・災害発生時には水の供給がストップして、入浴や歯磨きなどが十分にできなくなるかもしれません。体が不衛生な状態が続くと健康を害しやすいため、衛生用品の準備には万全にしておきましょう。,you may be hardly able to brush teeth and take a bath because of water outage when disaster strikes. make sure to prepare your hygiene supplies as it makes you unhealthy to stay unsanitary.,・さいがいのときにはみずのきゅうきゅうがすとっぷして、にゅうよくやはみがきなどがじゅうぶんにできなくなるかもしれます。からだふえいせいなじょうたいがつづくとけんこうをわるくしてしまうため、えいせいようひんのじゅんびにはばんぜんにしておきましょう。
+44,mochi,避難所で私物に名前を書いたり、伝言を残したりする時に必要になります。,it need in order to leave a message and write name on personal belongings at the evacuation center.,ひなんしたばしょでじぶんのものになまえをかいたり、でんごんをのこしたりするひつようになります。
+45,mochi,・粉ミルク・離乳食・哺乳瓶・スプーン,powdered milk、 baby food、 baby bottle、 spoon,・こなみるく・りにゅうしょく・ほにゅうびん・すぷーん
+46,mochi,・バスタオル・ガーゼ・着替え,bath towel、 gauze、 change of clothes,・ばすたおる・がーぜ・きがえ
+47,mochi,・おむつ・お尻ふき,diapers and wipes,・おむつ・おしりふき
+48,mochi,・母子手帳,mother and child handbook,・ぼしてちょう
+49,mochi,・おもちゃ,toys,・おもちゃ
+50,mochi,・非常食・飲料水,emergency food/drinking water,・ひじょうしょく・のみみず
+51,mochi,・避難用具（ケージ、クレート、キャリーケース）,evacuation equipment (cage、 crate、 carry case),・けーじ・くれーと・きゃりーけーす
+52,mochi,・鑑札・迷子札,License/Lost tag,・かんさつ・まいごふだ
+53,mochi,・タオル、新聞紙,towels、 newspaper,・たおる・しんぶんし
+54,mochi,チェックの数,number of checks,チェックの数
+55,mochi,長押しタップ,long tap,長押しタップ
+0,ooame,大雨の時の自分の行動を整理しましょう,Arrange your actions during heavy rain,おおあめのときのじぶんのこうどうをみなおしましょう
+1,ooame,「大雨時の行動整理」ボタンを押して、身の回りの災害リスクを明らかにし、大雨時の自分の行動を決めておきましょう。,Press [Arrange actions during heavy rain] button to clarify the disaster risk around you and decide what to do in case of heavy rain.,「おおあめのときのじぶんのこうどうをみなおそう」ぼたんをおして、じぶんのまわりのさいがいのかのうせいをみて、おおあめのときのじぶんのとらなきゃいけないうごきをかくにんしましょう。
+2,ooame,大雨の時のあなたの避難行動,your actions during heavy rain,おおあめのときのあなたのひなんするためのうごき
+3,ooame,立退き避難先,evacuation site,ひなんさき
+4,ooame,親戚・知人宅,friend's house etc.,しんせき・ともだちのいえ
+5,ooame,指定緊急避難場所,emergency evacuation site,きけんなとき、いのちをまもるためにじぶんたちでいそいでひなんするためのばしょ
+6,ooame,移動手段・移動時間,transportation、time,うごくためのほうほう・うごくためにかかるじかん
+0,ooame1,問１　自宅に災害リスクがありますか？,Q1 Does your house have disaster risk?,もんだい1　じぶんのいえにさいがいのかのうせいがありますか？
+1,ooame1,水害のリスク,flood risk,こうずいのせいでおこるさいがいのかのうせい
+2,ooame1,浸水の深さを入力してください,enter the depth of inundation,みずがはいってきたときのみずのふかさをにゅうりょくしてください
+3,ooame1,土砂災害のリスク,Landslide risk,やまやがけがくずれたり、つちやすながかわにながれたりするかのうせい
+0,ooame2,問２　自宅を離れた避難（立退き避難）が必要ですか？,Do you need an evacuation away from home?,もんだい2　じぶんのいえからはなれたひなんがひつようですか？
+1,ooame2, 条件が一つでも当てはまれば、立退き避難が必要です。,If even one of the conditions is met、 it is necessary to evacuate.,ひとつでもあてはまるものがあったら、いそいでそのばをはなれてひなんそろことがだいじです。
+2,ooame2,水害のリスク,flood risk,こうずいのせいでおこるさいがいのかのうせい
+3,ooame2,家屋倒壊等氾濫想定区域である,It is an area where flooding that collapses houses is expected.,いえがこわれるかのうせいがあるばしょである
+4,ooame2,居室は、浸水の深さより低い,The living room is lower than the depth of inundation,へや・しんしつ・だいどころはみずがはいってきたときのたかさよりひくい
+5,ooame2,水・食料奈等の備えが十分でない,Insufficient stock of water、 food、 etc.,みず・たべものなどのじゅんびができていない
+6,ooame2,土砂災害のリスク,Landslide risk,やまやがけがくずれたり、つちやすながかわにながれたりするかのうせい
+7,ooame2,十分堅牢なマンションの上階等ではない,Not on the upper floors of a sufficiently robust apartment,かたくてじょうぶなマンジョンのうえのほうではない
+0,ooame3,問３　立退き避難の避難先はどこですか？ ,Q3 Where is the evacuation site?,もんだい3　ひなんさきはどこですか？
+1,ooame3,問２で災害リスクがない場合も危険を感じた場合の立退き避難先を考えてください。,Even if there is no disaster risk in Q2、 think about where to evacuate if you feel danger.,もんだい2でさいがいのかのうせいないときもあぶないとかんじたときのみをまもるためのひなんさきをかんがえてください。
+2,ooame3,A 安全な場所に住んでいて身を寄せられる親戚や知人はいますか？　いたら記入してください。,A Do you have relatives or acquaintances who live in a safe place and can go to?  Please fill in if applicable.,A　あんぜんなばしょにすんでいてしんらいできるしんせきやともだちはいますか？
+3,ooame3,B 指定緊急避難場所はどこですか？,B Where is the assigned　emergency evacuation site?,B　きめてあるひなんばしょはどこですか？
+0,ooame4,問４　自分または一緒に避難する方は避難に時間がかかりますか？,Q4 Does it take any time for you or the person evacuating with you to evacuate?,もんだい4　じぶん、またはいっしょにひなんするひとはひなんにじかんがかかりますか？
+1,ooame4,※本アプリは移動時間の合計が30分を目安に判定を行います。,This application judges the total move time based on 30 minutes as a guide.,※このアプリはいどうじかんのごうけいが３０分をきじゅんにじかんをはかっています。
+2,ooame4,誰と,with who,だれと
+3,ooame4,移動手段,transportation,いどうのほうほう
+4,ooame4,準備にかかる時間,time to prepare,いどうにかかるじかん
+5,ooame4,移動にかかる時間,time to move,いどうにかかるじかん
+6,ooame4,移動時間の合計,total move time,いどうじかんのごうけい
+0,ooame5,問５　自宅に、予測が困難な災害リスクがありますか？,Q5 Does your home have disaster risks that are difficult to predict?,もんだい5　じぶんのいえに、そうぞうができないようなさいがいのかのうせいがありますか？
+1,ooame5,自宅に、以下の条件が当てはまりますか?１つでも当てはまれば、予測困難な災害リスク「あり」です。,Do any of the following apply to your home? If even one is true、 there is a disaster risk that is difficult to predict.,じぶんのいえに、このしたのじょうけんがあてはまりますか？ひとつでもあてはまったら、そうぞうができないようなさいがいのかのうせい「あり」です。
+2,ooame5,(１)急激な水位上昇のおそれがある河川が近くにある。,(1)There is a nearby river that is at risk of a sudden rise in water level.,(1)　きゅうにみずがふえるかのうせいがあるかわがちかくにある。
+3,ooame5,(２)土砂災害のリスクがある。,(2)There is a risk of landslide disaster.,(2)　やまやがけがくずれたり、つちやすながかわにながれたりするかのうせいがある。
+0,ooame_lv1,安全な場所にいる人まで避難する必要はありません,People in safe places do not need to evacuate.,あんぜんなばしょにいるひとまでひなんするひつようはないです
+1,ooame_llv1,ハザードマップで表現されていない災害リスクを見逃さないよう、事前にしっかり確認しましょう,Be sure to check in advance so that you do not miss any disaster risks that are not displayed on the hazard map.,ハザードマップにかかれていないさいがいのかのうせいをみおとさないように、しっかりとかくにんしましょう。
+0,ooame_llv2,自宅に留まり安全確保することも可能です,You can stay home and stay safe,じぶんのいえにいてあんぜんをたもつこともできます
+1,ooame_llv2,少しでも上へ移動　山や崖等から離れた部屋へ移動　危険を感じたら立退き避難,Move up even a little. Move to a room away from mountains、 cliffs、 etc. Evacuate if you feel danger.,すこしでもうえにいどう　やまやがけなどからはなれたへやにいどう　きけんだなとおもったらすぐにひなん
+0,ooame_llv3,警戒レベル３で確実に避難,Surely evacuate at alert level 3,けいかいレベル3でぜったいにひなん
+1,ooame_llv3,高齢者等避難,Evacuation order for the elderly,としをとったおじいちゃんおばあちゃんたちはひなん
+0,ooame_llv4,警戒レベル４で確実に避難,Surely evacuate at alert level 4,けいかいレベル4でぜったいにひなん
+1,ooame_llv4,避難指示,evacuation order,ひなんのめいれい
+0,ooame6,大雨時の行動整理,Arrange actions during heavy rain,おおあめのときのじぶんのこうどうの
+1,ooame6,ハザードマップを表示,display hazard map,ハザードマップをひょうじする
+2,ooame6,避難所を表示,display evacuation center,ひなんするところをひょうじする
+3,ooame6,判定,judge,はんていする
+4,ooame6,次へ,next,つぎへ
+0,hinan,ピンを選んで長押しすると、”ルート”を表示します,Select a pin and press and hold to display the route .,ピンを長おすると、”ルート”が表示されます
+1,hinan,洪水,flood,こうずい
+2,hinan,地震,earthquake,じしん
+3,hinan,津波,tsunami,つなみ
+4,hinan,避難所,Shelter,ひなんするばしょ
+5,hinan,もどる,Back,もどる
+6,hinan,現在地,You are here,いまいるばしょ
+7,hinan,検索,search,けんさく
+8,hinan,ルート,root,ルート
+9,hinan,撮る,screenshot,スクリーンショット
+11,hinan,住所から検索,Search by address,住所からさがす
+12,hinan,データベース登録件数,Number of database registrations,データベース登録件数
+13,hinan,しばらくお待ちください..,Please wait..,ちょっと待ってね
+14,hinan,読込み件数が100％でない時は、すべてのデータを削除して、再度読込み処理を実行してください。,If the number of items read is not 100%、please delete all data and perform the reading process again.,読込み件数が100％でない時は、すべてのデータを削除して、再度読込み処理を実行してください。
+15,hinan,データ読込み,Data loading,データ読込み
+16,hinan,削除,Delete,消します
+0,hinanSave,インターネットに接続できない状態に備えて、避難所・避難場所や避難所までにルート等を保存するページです。最大４画面保存できます。,This page saves evacuation sites、 evacuation sites、 routes to evacuation sites、 etc. in case you cannot connect to the Internet. Up to 4 screens can be saved.,インターネットにつなぐことができないときのために、ひなんするばしょやひなんするばしょにいくためのいきかたをのこしておくためのページです。いちばんおおくて4つぶんのこしておくことができます。
+1,hinanSave,_画像をタップすると拡大できます。画像を長押しすると削除できます。,Tap the image to enlarge. Press and hold the image to delete it.,がめんをたっぷするとおおきくひょうじできます。がぞうをながおしするとそのがぞうをすてることができます。
+2,hinanSave,撮る,screenshot,スクリーンショット
+3,hinanSave,削除確認,Delete confirmation,すてたかどうかかくにんする
+4,hinanSave,このデータを削除していいですか？,Are you sure you want to delete this data?,このデータをすててもいいですか？
+5,hinanSave,データがいっぱいです。,Data is full.,データがたくさんになりました。
+6,hinanSave,新しい写真を保存するには、既存の写真を削除してください。,Please delete the existing photo to save the new photo.,あたらしいしゃしんをのこしておくためには、もともとのこしてあったしゃしんをすててください。
+7,hinanSave,削除するには、対象の写真を長押ししてください。,Long press on the desired photo to delete it.,しゃしんをすてるためには、すてたいとおもうしゃしんをながおししてください。
+1,lv1,心構えを高める！, Increase preparedness !,こころのじゅんびをちゃんとする！
+2,lv1,災害への心構えを高める必要があることを示す警戒レベル１です。,this is level 1 which indicates that you have necessary to increase preparedness.,さいがいへのこころのじゅんびをちゃんとするひつようがあることをあらわしているけいかいレベル1です。
+3,lv1,最新の防災気象情報等に留意するなど、災害への心構えを高めてください。,please increase your preparedness for disaster to pay attension to the newest disaster privention informasion and so on,あたらしいさいがいのよほうやじょうほうなどにきをつけて、さいがいへのこころのじゅんびをしっかりとしましょう。
+4,lv2,避難行動の確認！,confirm the action for refuge,ひなんするためのこうどうのみなおし！
+5,lv2,避難行動の確認が必要とされる警戒レベル２です。,this is level 2 which indicates that requires to confirm the action for refuge,ひなんするためのこうどうのみなおしがひつようとしているけいかいレベル2です。
+6,lv2,ハザードマップ等により、災害が想定されている区域や避難先、避難経路を確認してください。,please confirm the action for refuge and check evacuation sites and areas where disasters are estimated ,ハザードマップなどによって、さいがいのかのうせいがあるかもしれないばしょやひなんするばしょ、ひなんするときのいきかたをみなおしてください。
+7,lv3,高齢者は危険な場所から避難！,seniors please refuge from dangerous place,おじいちゃんおばあちゃんはあぶないばしょからにげよう！
+8,lv3,地元の自治体が警戒レベル３高齢者等避難を発令する目安となる情報です。高齢者等は危険な場所からの避難が必要とされる警戒レベル３に相当します。,this is level 3 which indicates that seniors need to refuge from dangerous place. And this is a standard information that municipalities issue evacuation order for elderly、etc.,じぶんのすんでいるちくのじちたいがけいかいレベル3おじいちゃんおばあちゃんたちのひなんをするめやすとなるじょうほうです。おじいちゃんおばあちゃんはきけんなばしょからにげるひつようがあるけいかいレベル3になります。
+9,lv3,災害が想定されている区域等では、自治体からの高齢者等避難の発令に留意するとともに、高齢者等以外の方もキキクル（危険度分布）や河川の水位情報等を用いて避難の準備をしたり自ら避難の判断をしたりしてください。,please pay attension to anouncement evacuation order for elderly、etc. others get ready to refuge and figure to refuge by yourselves by considering Kikikuru or River water level infomation. ,さいがいがおこるかもしれないばしょは、じぶんのすんでいるちくのじちたいからのおじいちゃんおばあちゃんたちのひなんのめいれいにきをつけておいて、おじいちゃんおばあちゃんたちいがいのひとたちもキキクル（きけんレベルひょう）やかわのみずのりょうにじょうほうなどをつかってひなんするためのじゅんびをしたり、じぶんでひなんをするかどうかをきめてください。
+10,lv4,危険な場所から避難！,please refuge from dangerous place,きけんなばしょからすぐににげよう！
+11,lv4,地元の自治体が警戒レベル４避難指示を発令する目安となる情報です。危険な場所からの避難が必要とされる警戒レベル４に相当します。,this is level 4 which indicates that needs to refuge from dangerous place. And this is a piece of standard information that municipalities issue evacuation order.,じぶんのすんでいるちくのじちたいがけいかいレベル4ひなんめいれいをだすめやすとなるじょうほうです。きけんなばしょからひなんしてにげることがひつようになるけいかいレベル4にあたります。
+12,lv4,災害が想定されている区域等では、自治体からの避難指示の発令に留意するとともに、避難指示が発令されていなくてもキキクル（危険度分布）や河川の水位情報等を用いて自ら避難の判断をしてください。,please pay attension to anouncement evacuation order、 get ready to refuge and figure to refuge by yourselves by considering Kikikuru or River water level infomation. ,さいがいがおこるかもしれないばしょは、じぶんのすんでいるちくのじちたいからのおじいちゃんおばあちゃんたちのひなんのめいれいにきをつけておいて、おじいちゃんおばあちゃんたちいがいのひとたちもキキクル（きけんレベルひょう）やかわのみずのりょうにじょうほうなどをつかってひなんするためのじゅんびをしたり、じぶんでひなんをするかどうかをきめてください。
+13,lv5,高い所へ避難！！川から離れる！,refuge to higher ground ! leave river !,たかいばしょへにげる！かわからはなれて！
+14,lv5,地元の自治体が警戒レベル５緊急安全確保を発令する判断材料となる情報です。災害が発生又は切迫していることを示す警戒レベル５に相当します。,this is level 5 which indicates that disasters are coming or occured. And this can be information that municipalities issue emergency ensuring safety order.,じぶんのすんでいるちくのじちたいがけいかいレベル5きんきゅうあんぜんかくほをめいれいするかどうかをきめるじょうほうです。さいがいがおこったり、さいがいがおこってあせっていることをあらわしているけいかいレベル5です。
+15,lv5,何らかの災害がすでに発生している可能性が極めて高い状況となっています。命の危険が迫っているため直ちに身の安全を確保してください。,it is very likely that some kind of disaster has been occurred. Please ensure safety immediately as danger is approaching to your life.,なにかさいがいがいまのじてんでおこっているかのうせいがすごくたかくなっています。いのちのきけんがどんどんせまっているからいますぐにじぶんのみをまもるためのこうどうをとってください。

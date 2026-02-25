@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="jp.shsit.shsinfo2025.ui.weather.WeatherFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_weather" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="jp.shsit.shsinfo2025.ui.kikikuru.KikikuruFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_kikikuru" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="jp.shsit.shsinfo2025.ui.sonaeru.SonaeFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_sonae" />
+
+    <fragment
+        android:id="@+id/navigation_uses"
+        android:name="jp.shsit.shsinfo2025.ui.sonaeru.SonaeFragment"
+        android:label="@string/title_uses"
+        tools:layout="@layout/fragment_sonae" />
+
+</navigation>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/gps1Button"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:background="@drawable/button_modoru"
+            android:text="もどる"
+            android:textColor="@color/modoru" />
+
+        <Button
+            android:id="@+id/gps1Button2"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/button_modoru"
+            android:text="現在地"
+            android:textColor="@color/modoru"/>
+
+
+        <TextView
+            android:id="@+id/study_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_weight="3"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/button_a"
+            android:layout_width="70dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_screen"
+            android:text="撮る"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/save_btn2"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/button_modoru"
+            android:text="保存一覧"
+            android:textColor="@color/modoru"
+            android:textSize="10sp"
+            app:autoSizeMinTextSize="6sp" />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/gps_webview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+
+        >
+
+    </WebView>
+
+</LinearLayout>
