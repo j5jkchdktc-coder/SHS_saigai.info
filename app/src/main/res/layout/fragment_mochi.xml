@@ -50,6 +50,47 @@
                 android:textSize="36sp" />
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/profile_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="世帯構成を選択してください"
+            android:textColor="@color/black"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:textSize="14sp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/cb_baby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="赤ちゃん" />
+                <CheckBox
+                    android:id="@+id/cb_elderly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="高齢者" />
+                <CheckBox
+                    android:id="@+id/cb_woman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="女性" />
+                <CheckBox
+                    android:id="@+id/cb_pet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ペット" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
         <ListView
             android:id="@+id/listview"
             android:layout_width="match_parent"
