@@ -31,7 +31,7 @@ public class PublicListViewAdapter extends ArrayAdapter<PublicListData> {
     public View getView(int position, View convertView, ViewGroup parent) {
         PublicListData data = (PublicListData) getItem(position);
         if (null == convertView) {
-            convertView = layoutInflater.inflate(R.layout.public_list_item, null);
+            convertView = layoutInflater.inflate(R.layout.public_list_item, parent, false);
         }
         System.out.println(data.getName());
 
