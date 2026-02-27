@@ -201,3 +201,28 @@
 79,mochi,赤ちゃん,Baby,あかちゃん,Em bé,婴儿
 80,mochi,高齢者,Elderly,こうれいしゃ,Người cao tuổi,老年人
 81,mochi,ペット,Pet,ペット,Thú cưng,宠物
+0,wizard,性別選択,Select Gender,せいべつせんたく,Chọn giới tính,选择性别
+1,wizard,男性,Male,だんせい,Nam giới,男性
+2,wizard,女性,Female,じょせい,Phụ nữ,女性
+3,wizard,その他,Other,そのた,Khác,其他
+4,wizard,次へ,Next,つぎへ,Tiếp theo,下一步
+5,wizard,子供・赤ちゃんの有無,Presence of children/babies,こども・あかちゃんのうむ,Có trẻ em/trẻ sơ sinh không,是否有孩子/婴儿
+6,wizard,いない,None,いない,Không có,没有
+7,wizard,子供がいる,Child present,こどもがいる,Có trẻ em,有孩子
+8,wizard,赤ちゃんがいる,Baby present,あかちゃんがいる,Có trẻ sơ sinh,有婴儿
+9,wizard,ペットの有無,Presence of pets,ペットのうむ,Có thú cưng không,是否有宠物
+10,wizard,いる,Yes,いる,Có,有
+11,wizard,いない,No,いない,Không,没有
+12,wizard,結果を見る,View Results,けっかをみる,Xem kết quả,查看结果
+13,wizard,備蓄品TODOリスト,Stockpile TODO List,びちくひんTODOりすと,Danh sách TODO đồ dự phòng,备蓄品TODO列表
+14,wizard,水,Water,みず,Nước,水
+15,wizard,非常食,Emergency Food,ひじょうしょく,Thực phẩm khẩn cấp,非常食
+16,wizard,懐中電灯,Flashlight,かいちゅうでんとう,Đèn pin,手电筒
+17,wizard,モバイルバッテリー,Mobile Battery,モバイルバッテリー,Pin sạc dự phòng,移动电源
+18,wizard,生理用品,Sanitary Products,せいりようひん,Dụng cụ vệ sinh phụ nữ,生理用品
+19,wizard,子供用非常食,Emergency Food for Children,こどもようひじょうしょく,Thực phẩm khẩn cấp cho trẻ em,儿童用非常食
+20,wizard,粉ミルク,Powdered Milk,こなみるく,Sữa bột,奶粉
+21,wizard,おむつ,Diapers,おむつ,Tã,尿布
+22,wizard,ペットフード,Pet Food,ぺっとふーど,Thức ăn cho thú cưng,宠物食品
+23,wizard,ペット用水,Water for Pets,ぺっとようのみず,Nước cho thú cưng,宠物用水
+24,wizard,備蓄品診断,Stockpile Diagnosis,びちくひんしんだん,Chẩn đoán đồ dự phòng,备蓄品诊断

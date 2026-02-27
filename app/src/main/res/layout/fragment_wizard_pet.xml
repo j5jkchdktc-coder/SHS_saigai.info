@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/wizard_pet_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ペットの有無"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        android:gravity="center" />
+
+    <RadioGroup
+        android:id="@+id/pet_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp">
+
+        <RadioButton
+            android:id="@+id/radio_pet_present"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="いる"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <RadioButton
+            android:id="@+id/radio_pet_none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="いない"
+            android:textSize="18sp"
+            android:padding="12dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_pet_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="結果を見る"
+        android:backgroundTint="@color/modoru"
+        android:textColor="@color/white" />
+
+</LinearLayout>

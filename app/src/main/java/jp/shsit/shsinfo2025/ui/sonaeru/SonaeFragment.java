@@ -56,7 +56,7 @@ public class SonaeFragment extends Fragment implements LatLongCatch.OnLocationRe
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) ImageView tuutiBtn = root.findViewById(R.id.imageButton16);
 
 
-        MainActivity main = new MainActivity();
+        MainActivity main = (MainActivity) getActivity();
         centerImage3 = root.findViewById(R.id.centerImage3);
         commentImage3 = root.findViewById(R.id.imageView4);
         commentImage3.setAlpha(0.0f);
@@ -340,14 +340,33 @@ public class SonaeFragment extends Fragment implements LatLongCatch.OnLocationRe
             }
         });
 
+        // 備蓄品診断
+        TextView tvWizard = root.findViewById(R.id.wizardText);
+        tvWizard.setText(main.LangReader("wizard", 24, language));
+        ImageView wizardBtn = root.findViewById(R.id.wizardBtn);
+        wizardBtn.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                commentImage3.setAlpha(0.0f);
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        wizardBtn.setImageResource(R.drawable.motidasi22);
+                        break;
+                    case MotionEvent.ACTION_UP:
+                        wizardBtn.setImageResource(R.drawable.motidasi);
+                        FragmentManager manager = getActivity().getSupportFragmentManager();
+                        FragmentTransaction transaction = manager.beginTransaction();
+                        transaction.addToBackStack(null);
+                        transaction.replace(R.id.nav_host_fragment, new WizardGenderFragment());
+                        transaction.commit();
+                        break;
+                }
+                return true;
+            }
+        });
+
         locationManager = new LatLongCatch(getContext(), (LatLongCatch.OnLocationResultListener) getActivity());
         locationManager.startLocationUpdates();
-
-
-
-
-
-
 
         return root;
 
