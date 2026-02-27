@@ -33,26 +33,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <TextView
             android:id="@+id/kouzui"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingRight="10dp"/>
+            android:paddingRight="10dp" />
 
         <TextView
             android:id="@+id/jishin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingRight="10dp"/>
+            android:paddingRight="10dp" />
+
         <TextView
             android:id="@+id/tsunami"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingRight="10dp"/>
+            android:paddingRight="10dp" />
+
         <TextView
             android:id="@+id/jyou"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
