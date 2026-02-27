@@ -175,3 +175,41 @@
 2,tuti,熱中症アラート,Heat Stroke Alert,ねっちゅうしょうアラート,Cảnh báo sốc nhiệt,中暑警报 / 高温中暑预警
 0,splash,SHS災害.infoとは\nこのアプリは、2017年に佐土原高校の生徒によって「災害や防災に関する情報を発信するアプリ」という目的で名付けられました\n2025年で9年目を迎える、防災情報発信アプリです。,What is SHS災害.info?\nThis app was named by students of Sadowara High School in 2017 with the goal of being an app that provides information on disasters and disaster prevention.\nThis disaster prevention information dissemination app will be in its ninth year in 2025.,SHS災害.infoとは\nこのアプリは、2017年に佐土原高校の生徒によって「災害や防災に関する情報を発信するアプリ」という目的で名付けられました\n2025年で9年目を迎える、防災情報発信アプリです。,SHS災害.info là gì?\nỨng dụng này được học sinh trường trung học Sadowara đặt tên vào năm 2017 với mục đích là ứng dụng cung cấp thông tin về thảm họa và phòng chống thảm họa.\nĐây là ứng dụng phổ biến thông tin phòng chống thiên tai sẽ kỷ niệm năm thứ chín vào năm 2025,SHS災害.info 是什么？\n该应用程序由佐土原高中的学生于2017年命名、旨在成为提供有关灾害和防灾信息的应用程序。\n这是一款防灾信息传播应用程序、2025年将迎来第九个年头。
 1,splash,監修：宮﨑地方気象台\nデザイン：産業デザイン科\nプログラム：情報技術部,Supervised by: Miyazaki Local Meteorological Observatory\nDesign: Department of Industrial Design\nProgram: Information Technology Club,監修：宮﨑地方気象台\nデザイン：産業デザイン科\nプログラム：情報技術部,Được giám sát bởi: Đài Khí tượng khu vực Miyazaki\nThiết kế: Khoa Thiết kế Công nghiệp\nLập trình: Bộ phận Công nghệ Thông tin,监制：宫崎地方气象台\n设计：工业设计科\n程序设计：信息技术部
+56,mochi,高齢者に必要なもの,Items for elderly,おとしよりにひつようなもの,Vật dụng cho người cao tuổi,老人用品
+57,mochi,女性に必要なもの,Items for women,じょせいにひつようなもの,Vật dụng cho phụ nữ,女性用品
+58,mochi,簡易トイレ,Portable toilet,かんいトイレ,Nhà vệ sinh di động,简易厕所
+59,mochi,ペットに必要なもの,Items for pets,ペットにひつようなもの,Vật dụng cho thú cưng,宠物用品
+60,mochi,・入れ歯・補聴器\n・常備薬\n・お薬手帳\n・大人用おむつ\n・老眼鏡,・Dentures/Hearing aids\n・Regular medicine\n・Medicine notebook\n・Adult diapers\n・Reading glasses,・いれば・ほちょうき\n・じょうびやく\n・おくすりてちょう\n・おとなようおむつ\n・ろうがんきょう,・Răng giả/Máy trợ thính\n・Thuốc thường dùng\n・Sổ tay dùng thuốc\n・Tã người lớn\n・Kính lão,・假牙・助听器\n・常备药\n・用药手册\n・成人尿布\n・老花镜
+61,mochi,高齢者の方は、普段使っているものが避難所では手に入りにくいことがあります。命や生活に関わるものを優先的に準備しましょう。,For elderly people、 items they usually use may be difficult to obtain at evacuation centers. Prioritize preparing items related to life and daily living.,おとしよりのひとは、ふだんつかっているものがひなんじょではてにはいりにくいことがあります。いのちやせいかつにかかわるものをゆうせんてきにじゅんびしましょう。,Đối với người cao tuổi、 những vật dụng thường dùng có thể khó tìm thấy tại nơi trú ẩn. Hãy ưu tiên chuẩn bị những thứ liên quan đến tính mạng và sinh hoạt hàng ngày.,老年人平时使用的物品在避难所可能难以获得。请优先准备与生命和日常生活相关的物品。
+62,mochi,・生理用品\n・サニタリーショーツ\n・おりものシート\n・鏡\n・ヘアゴム,・Sanitary products\n・Sanitary shorts\n・Panty liners\n・Mirror\n・Hair ties,・せいりようひん\n・サニタリーショーツ\n・おりものシート\n・かがみ\n・ヘアゴム,・Dụng cụ vệ sinh phụ nữ\n・Quần lót vệ sinh\n・Băng vệ sinh hàng ngày\n・Gương\n・Chun buộc tóc,・生理用品\n・生理裤\n・护垫\n・镜子\n・发圈
+63,mochi,避難所ではプライバシーの確保が難しく、衛生面でも不安が生じやすいです。自分に合った衛生用品を用意しておきましょう。,At evacuation centers、 it is difficult to ensure privacy、 and there is often concern about hygiene. Prepare hygiene products that suit you.,ひなんじょではプライバシーのかくほがむずかしく、えいせいめんでもふあんがしょうじやすいです。じぶんにあったえいせいようひんをよういしておきましょう。,Tại nơi trú ẩn、 việc đảm bảo riêng tư rất khó khăn và dễ nảy sinh lo ngại về vệ sinh. Hãy chuẩn bị sẵn các dụng cụ vệ sinh phù hợp với bản thân.,在避难所、保障隐私较为困难、卫生方面也容易产生不安。请准备好适合自己的卫生用品。
+64,mochi,断水時にはトイレが使えなくなります。簡易トイレや凝固剤を用意しておくと、不衛生な状態を防ぐことができます。,Toilets will be unusable during water outages. Preparing portable toilets and coagulants can prevent unsanitary conditions.,だんすいのときにはトイレがつかえなくなります。かんいトイレやぎょうこざいをよういしておくと、ふえいせいなじょうたいをふせぐことができます。,Khi mất nước、 nhà vệ sinh sẽ không thể sử dụng. Chuẩn bị sẵn nhà vệ sinh di động và chất đông đặc có thể ngăn chặn tình trạng mất vệ sinh.,断水时厕所将无法使用。准备简易厕所和凝固剂可以防止不卫生的情况发生。
+65,mochi,・リード・首輪\n・ペット用トイレシート\n・おもちゃ\n・健康保険証（あれば）,・Leash/Collar\n・Pet toilet sheets\n・Toys\n・Health insurance card (if any),・リード・くびわ\n・ペットようトイレシート\n・おもちゃ\n・けんこうほけんしょう,・Dây xích/Vòng cổ\n・Tấm lót vệ sinh cho thú cưng\n・Đồ chơi\n・Thẻ bảo hiểm y tế (nếu có),・牵引绳・项圈\n・宠物用排泄垫\n・玩具\n・健康保险证（如有）
+66,mochi,ペットとの同行避難では、周囲への配慮が不可欠です。普段使い慣れたものを用意し、ストレスを軽減してあげましょう。,When evacuating with your pet、 consideration for those around you is essential. Prepare items your pet is used to using to reduce their stress.,ペットとのどうこうひなんでは、しゅういへのはいりょがふかけつです。ふだんつかいなれたものをよういし、ストレスをけいげんしてあげましょう。,Khi sơ tán cùng thú cưng、 việc quan tâm đến mọi người xung quanh là rất quan trọng. Hãy chuẩn bị những vật dụng quen thuộc để giúp chúng giảm bớt căng thẳng.,与宠物一同避难时、顾及周围人是必不可少的。请准备好宠物平时用惯的物品、以减轻它们的压力。
+67,mochi,男性,Male,だんせい,Nam giới,男性
+68,mochi,子供,Child,こども,Trẻ em,儿童
+69,mochi,子供に必要なもの,Items for children,こどもにひつようなもの,Vật dụng cho trẻ em,儿童用品
+70,mochi,・子供用衣類\n・お菓子\n・おもちゃ\n・迷子札,・Children's clothes\n・Snacks\n・Toys\n・ID tag,・こどもようのふく\n・おかし\n・おもちゃ\n・まいごふだ,・Quần áo trẻ em\n・Đồ ăn vặt\n・Đồ chơi\n・Thẻ tên,・儿童衣物\n・零食\n・玩具\n・防丢牌
+71,mochi,子供がいる場合は、環境の変化に敏感になりやすいです。お気に入りのお菓子や、安心できるものを用意しておきましょう。,Children are sensitive to environmental changes. Prepare their favorite snacks and items that make them feel secure.,こどもがいるばあいは、かんきょうのへんかにびんかんになりやすいです。おきにいりのおかしや、あんしんできるものを用意しておきましょう。,Trẻ em thường nhạy cảm với sự thay đổi môi trường. Hãy chuẩn bị đồ ăn vặt yêu thích và những vật dụng mang lại cảm giác an tâm cho bé.,孩子对环境变化比较敏感。请准备好他们喜欢的零食和能让他们感到安心的物品。
+72,mochi,性別を選択してください,Select gender,せいべつをえらんでください,Chọn giới tính,选择性别
+73,mochi,家族構成を選択してください,Select family composition,かぞくをえらんでください,Chọn thành phần gia đình,选择家庭构成
+74,mochi,ペットの有無を選択してください,Select pet ownership,ペットがいるかえらんでください,Chọn việc có thú cưng hay không,选择是否有宠物
+75,mochi,男性に必要なもの,Items for men,だんせいにひつようなもの,Vật dụng cho nam giới,男性用品
+76,mochi,・カミソリ\n・シェービングフォーム,・Razor\n・Shaving foam,・かみそり\n・しぇーびんぐふぉーむ,・Dao cạo râu\n・Kem cạo râu,・剃须刀・剃须膏
+77,mochi,男性特有の衛生用品も忘れずに準備しましょう。,Don't forget to prepare hygiene products specific to men.,だんせいとくゆうのえいせいようひんもわすれずにじゅんびしましょう。,Đừng quên chuẩn bị các dụng cụ vệ sinh dành riêng cho nam giới.,别忘了准备男性特有的卫生用品。
+78,mochi,女性,Female,じょせい,Phụ nữ,女性
+79,mochi,赤ちゃん,Baby,あかちゃん,Em bé,婴儿
+80,mochi,高齢者,Elderly,こうれいしゃ,Người cao tuổi,老年人
+81,mochi,ペット,Pet,ペット,Thú cưng,宠物
+82,mochi,その他,Other,その他,Khác,其他
+83,mochi,いない,None,いない,Không có,无
+84,mochi,次へ,Next,つぎへ,Tiếp theo,下一步
+85,mochi,結果を見る,View Results,けっかをみる,Xem kết quả,查看結果
+86,mochi,性別を選択してください,Select gender,せいべつをえらんでください,Chọn giới tính,选择性别
+87,mochi,子供・赤ちゃんの有無,Presence of children/babies,こども・あかちゃんがいるか,Sự hiện diện của trẻ em/trẻ sơ sơ sinh,是否有孩子/婴儿
+88,mochi,ペットの有無,Presence of pets,ペットがいるか,Sự hiện diện của thú cưng,是否有宠物
+89,mochi,子供がいる,Child exists,こどもがいる,Có trẻ em,有孩子
+90,mochi,赤ちゃんがいる,Baby exists,あかちゃんがいる,Có trẻ sơ sinh,有婴儿
+91,mochi,いる,Yes,いる,Có,有
+92,mochi,いない,No,いない,Không,没有
+93,mochi,備蓄品TODOリスト,Emergency Supplies TODO List,ひじょうようひんリスト,Danh sách việc cần làm cho đồ dùng khẩn cấp,应急用品待办列表

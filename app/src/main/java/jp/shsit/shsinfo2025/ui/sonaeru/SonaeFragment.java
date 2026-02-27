@@ -123,7 +123,7 @@ public class SonaeFragment extends Fragment implements LatLongCatch.OnLocationRe
                         FragmentTransaction transaction = manager.beginTransaction();
                         /* もどるボタンで戻ってこれるように */
                         transaction.addToBackStack(null);
-                        transaction.replace(R.id.nav_host_fragment, new MochiCheackFragment());
+                        transaction.replace(R.id.nav_host_fragment, new MochiGenderFragment());
                         transaction.commit();
                         progressDialog = new ProgressDialog(getContext());
                         progressDialog.setTitle("タイトル");
