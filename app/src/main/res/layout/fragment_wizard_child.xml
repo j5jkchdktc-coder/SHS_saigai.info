@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/wizard_child_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="子供・赤ちゃんの有無"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        android:gravity="center" />
+
+    <RadioGroup
+        android:id="@+id/child_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp">
+
+        <RadioButton
+            android:id="@+id/radio_child_none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="いない"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <RadioButton
+            android:id="@+id/radio_child_present"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="子供がいる"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <RadioButton
+            android:id="@+id/radio_baby_present"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="赤ちゃんがいる"
+            android:textSize="18sp"
+            android:padding="12dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_child_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="次へ"
+        android:backgroundTint="@color/modoru"
+        android:textColor="@color/white" />
+
+</LinearLayout>
