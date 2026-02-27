@@ -34,7 +34,7 @@ public class MochiCheackFragment extends Fragment implements firstAdapter.EventL
     private List<ChecklistItem> visibleItems;
     private boolean[] allFlags;
 
-    private static final int TOTAL_POSSIBLE_ITEMS = 18;
+    private static final int TOTAL_POSSIBLE_ITEMS = 25;
 
     static class ChecklistItem {
         int id; // Original index for flag storage
@@ -70,6 +70,8 @@ public class MochiCheackFragment extends Fragment implements firstAdapter.EventL
         allItems.add(new ChecklistItem(15, 56, R.drawable.noimage2, "elderly"));
         allItems.add(new ChecklistItem(16, 57, R.drawable.noimage2, "woman"));
         allItems.add(new ChecklistItem(17, 59, R.drawable.inu, "pet"));
+        allItems.add(new ChecklistItem(18, 69, R.drawable.noimage2, "child"));
+        allItems.add(new ChecklistItem(19, 75, R.drawable.noimage2, "male"));
     }
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -78,35 +80,46 @@ public class MochiCheackFragment extends Fragment implements firstAdapter.EventL
         View root = inflater.inflate(R.layout.fragment_mochi, container, false);
         initItems();
 
-        allFlags = getArray("key_v2", TOTAL_POSSIBLE_ITEMS);
+        allFlags = getArray("key_v4", TOTAL_POSSIBLE_ITEMS);
 
         String language = PreferenceManager.getDefaultSharedPreferences(getActivity()).getString("lang", "日本語");
         MainActivity main = new MainActivity();
 
-        CheckBox cbBaby = root.findViewById(R.id.cb_baby);
-        CheckBox cbElderly = root.findViewById(R.id.cb_elderly);
+        CheckBox cbMale = root.findViewById(R.id.cb_male);
         CheckBox cbWoman = root.findViewById(R.id.cb_woman);
+        CheckBox cbBaby = root.findViewById(R.id.cb_baby);
+        CheckBox cbChild = root.findViewById(R.id.cb_child);
+        CheckBox cbElderly = root.findViewById(R.id.cb_elderly);
         CheckBox cbPet = root.findViewById(R.id.cb_pet);
 
         SharedPreferences profilePrefs = getContext().getSharedPreferences("Profiles", Context.MODE_PRIVATE);
-        cbBaby.setChecked(profilePrefs.getBoolean("baby", false));
-        cbElderly.setChecked(profilePrefs.getBoolean("elderly", false));
+        cbMale.setChecked(profilePrefs.getBoolean("male", false));
         cbWoman.setChecked(profilePrefs.getBoolean("woman", false));
+        cbBaby.setChecked(profilePrefs.getBoolean("baby", false));
+        cbChild.setChecked(profilePrefs.getBoolean("child", false));
+        cbElderly.setChecked(profilePrefs.getBoolean("elderly", false));
         cbPet.setChecked(profilePrefs.getBoolean("pet", false));
 
-        cbBaby.setText(main.LangReader("mochi", 13, language));
-        cbElderly.setText(main.LangReader("mochi", 56, language));
+        cbMale.setText(main.LangReader("mochi", 67, language));
         cbWoman.setText(main.LangReader("mochi", 57, language));
+        cbBaby.setText(main.LangReader("mochi", 13, language));
+        cbChild.setText(main.LangReader("mochi", 68, language));
+        cbElderly.setText(main.LangReader("mochi", 56, language));
         cbPet.setText(main.LangReader("mochi", 59, language));
+
+        TextView tvProfile = root.findViewById(R.id.profile_desc);
+        tvProfile.setText(main.LangReader("mochi", 73, language));
 
         updateVisibleItems();
         setupListView(root, language, main);
 
         View.OnClickListener profileListener = v -> {
             SharedPreferences.Editor editor = profilePrefs.edit();
-            editor.putBoolean("baby", cbBaby.isChecked());
-            editor.putBoolean("elderly", cbElderly.isChecked());
+            editor.putBoolean("male", cbMale.isChecked());
             editor.putBoolean("woman", cbWoman.isChecked());
+            editor.putBoolean("baby", cbBaby.isChecked());
+            editor.putBoolean("child", cbChild.isChecked());
+            editor.putBoolean("elderly", cbElderly.isChecked());
             editor.putBoolean("pet", cbPet.isChecked());
             editor.apply();
 
@@ -115,9 +128,11 @@ public class MochiCheackFragment extends Fragment implements firstAdapter.EventL
             updateCheckCountDisplay();
         };
 
-        cbBaby.setOnClickListener(profileListener);
-        cbElderly.setOnClickListener(profileListener);
+        cbMale.setOnClickListener(profileListener);
         cbWoman.setOnClickListener(profileListener);
+        cbBaby.setOnClickListener(profileListener);
+        cbChild.setOnClickListener(profileListener);
+        cbElderly.setOnClickListener(profileListener);
         cbPet.setOnClickListener(profileListener);
 
         tv = root.findViewById(R.id.check);
@@ -135,9 +150,11 @@ public class MochiCheackFragment extends Fragment implements firstAdapter.EventL
 
     private void updateVisibleItems() {
         SharedPreferences profilePrefs = getContext().getSharedPreferences("Profiles", Context.MODE_PRIVATE);
-        boolean baby = profilePrefs.getBoolean("baby", false);
-        boolean elderly = profilePrefs.getBoolean("elderly", false);
+        boolean male = profilePrefs.getBoolean("male", false);
         boolean woman = profilePrefs.getBoolean("woman", false);
+        boolean baby = profilePrefs.getBoolean("baby", false);
+        boolean child = profilePrefs.getBoolean("child", false);
+        boolean elderly = profilePrefs.getBoolean("elderly", false);
         boolean pet = profilePrefs.getBoolean("pet", false);
 
         visibleItems = new ArrayList<>();
@@ -146,7 +163,11 @@ public class MochiCheackFragment extends Fragment implements firstAdapter.EventL
                 visibleItems.add(item);
             } else if (item.category.equals("baby") && baby) {
                 visibleItems.add(item);
+            } else if (item.category.equals("child") && child) {
+                visibleItems.add(item);
             } else if (item.category.equals("elderly") && elderly) {
+                visibleItems.add(item);
+            } else if (item.category.equals("male") && male) {
                 visibleItems.add(item);
             } else if (item.category.equals("woman") && woman) {
                 visibleItems.add(item);
@@ -207,13 +228,13 @@ public class MochiCheackFragment extends Fragment implements firstAdapter.EventL
     public void onCheckChanged(int originalId, boolean isChecked) {
         allFlags[originalId] = isChecked;
         updateCheckCountDisplay();
-        saveArray(allFlags, "key_v2");
+        saveArray(allFlags, "key_v4");
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        saveArray(allFlags, "key_v2");
+        saveArray(allFlags, "key_v4");
     }
 
     private void saveArray(boolean[] array, String PrefKey) {

@@ -138,6 +138,16 @@ public class page1Fragment extends Fragment {
                 details.append(main.LangReader("mochi", 65, language)).append("\n\n");
                 details.append(main.LangReader("mochi", 66, language));
                 break;
+            case 18: // Child
+                imageView.setImageResource(R.drawable.noimage2);
+                details.append(main.LangReader("mochi", 70, language)).append("\n\n");
+                details.append(main.LangReader("mochi", 71, language));
+                break;
+            case 19: // Male
+                imageView.setImageResource(R.drawable.noimage2);
+                details.append(main.LangReader("mochi", 76, language)).append("\n\n");
+                details.append(main.LangReader("mochi", 77, language));
+                break;
             default:
                 imageView.setImageResource(R.drawable.noimage2);
                 details.append("Details not available.");

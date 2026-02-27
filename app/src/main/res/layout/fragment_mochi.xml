@@ -69,20 +69,30 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <CheckBox
-                    android:id="@+id/cb_baby"
+                    android:id="@+id/cb_male"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="赤ちゃん" />
-                <CheckBox
-                    android:id="@+id/cb_elderly"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="高齢者" />
+                    android:text="男性" />
                 <CheckBox
                     android:id="@+id/cb_woman"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="女性" />
+                <CheckBox
+                    android:id="@+id/cb_baby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="赤ちゃん" />
+                <CheckBox
+                    android:id="@+id/cb_child"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="子供" />
+                <CheckBox
+                    android:id="@+id/cb_elderly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="高齢者" />
                 <CheckBox
                     android:id="@+id/cb_pet"
                     android:layout_width="wrap_content"
