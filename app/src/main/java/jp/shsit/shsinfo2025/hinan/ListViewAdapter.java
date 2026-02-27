@@ -31,7 +31,7 @@ public class ListViewAdapter extends ArrayAdapter<ListData> {
     public View getView(int position, View convertView, ViewGroup parent) {
         ListData data = (ListData) getItem(position);
         if (null == convertView) {
-            convertView = layoutInflater.inflate(R.layout.hinan_list_item, null);
+            convertView = layoutInflater.inflate(R.layout.hinan_list_item, parent, false);
         }
 
         System.out.println(data.name);
