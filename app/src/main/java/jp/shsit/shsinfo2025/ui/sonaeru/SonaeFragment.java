@@ -38,7 +38,6 @@ import jp.shsit.shsinfo2025.ui.sonaeru.tuti.tuutiFragment;
 public class SonaeFragment extends Fragment implements LatLongCatch.OnLocationResultListener {
 
     LatLongCatch locationManager;
-    ProgressDialog progressDialog;
     String language;
     ImageView centerImage3,commentImage3;
     Boolean flag =false;
@@ -50,7 +49,6 @@ public class SonaeFragment extends Fragment implements LatLongCatch.OnLocationRe
 
         View root = inflater.inflate(R.layout.fragment_sonae, container, false);
         language= PreferenceManager.getDefaultSharedPreferences(getActivity()).getString("lang", "日本語");
-        ImageView motiBtn = root.findViewById(R.id.imageButton13);
         ImageView hinaBtn = root.findViewById(R.id.imageButton14);
         ImageView hazaBtn = root.findViewById(R.id.imageButton15);
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) ImageView tuutiBtn = root.findViewById(R.id.imageButton16);
@@ -99,40 +97,6 @@ public class SonaeFragment extends Fragment implements LatLongCatch.OnLocationRe
                         transaction.addToBackStack("hinan");
                         transaction.replace(R.id.nav_host_fragment, new ReadHinan());
                         transaction.commit();
-                        break;
-
-                }
-                return true;
-            }
-        });
-         //持ち出し
-        TextView tv0 = root.findViewById(R.id.textView14);
-        tv0.setText( main.LangReader("sonae",0,language));
-        motiBtn.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                commentImage3.setAlpha(0.0f);
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN:
-                        //タップした瞬間
-                        motiBtn.setImageResource(R.drawable.motidasi22);
-                        break;
-                    case MotionEvent.ACTION_UP:
-                        motiBtn.setImageResource(R.drawable.motidasi);
-                        FragmentManager manager = getActivity().getSupportFragmentManager();
-                        FragmentTransaction transaction = manager.beginTransaction();
-                        /* もどるボタンで戻ってこれるように */
-                        transaction.addToBackStack(null);
-                        transaction.replace(R.id.nav_host_fragment, new MochiCheackFragment());
-                        transaction.commit();
-                        progressDialog = new ProgressDialog(getContext());
-                        progressDialog.setTitle("タイトル");
-                        progressDialog.setMessage("メッセージ");
-                        progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                        progressDialog.setMax(100); // 最大値を設定
-                        progressDialog.show();
-                        AsyncTaskClass task = new AsyncTaskClass(progressDialog);
-                        task.execute("");
                         break;
 
                 }
@@ -379,31 +343,5 @@ public class SonaeFragment extends Fragment implements LatLongCatch.OnLocationRe
         double lon = locationResult.getLastLocation().getLongitude();
         Log.i("test", lat + "," + lon);
 
-    }
-}
-
-class AsyncTaskClass extends AsyncTask<String, String, String> {
-
-    ProgressDialog progressDialog;
-
-    public AsyncTaskClass(ProgressDialog progressDialog) {
-        super();
-        this.progressDialog   = progressDialog;
-    }
-
-    @Override
-    protected String doInBackground (String... params) {
-        try {
-            for (int i = 37; i < 100; i++) {
-                progressDialog.setProgress(i);
-                Thread.sleep(10);
-            }
-        } catch (InterruptedException e) { }
-        return "";
-    }
-
-    @Override
-    protected void onPostExecute(String str) {
-        progressDialog.dismiss();
     }
 }
