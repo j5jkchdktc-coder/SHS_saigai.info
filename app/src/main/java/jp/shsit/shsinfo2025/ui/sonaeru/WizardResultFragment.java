@@ -72,6 +72,7 @@ public class WizardResultFragment extends Fragment {
         stockpileItems.add(main.LangReader("wizard", 15, language)); // Food
         stockpileItems.add(main.LangReader("wizard", 16, language)); // Flashlight
         stockpileItems.add(main.LangReader("wizard", 17, language)); // Mobile Battery
+        stockpileItems.add(main.LangReader("wizard", 25, language)); // clothing
 
         // Gender specific
         String gender = wizardPrefs.getString("gender", "");
