@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -79,17 +80,16 @@ public class WizardResultFragment extends Fragment {
         }
 
         // Child specific
-        String childStatus = wizardPrefs.getString("child_status", "");
-        if (childStatus.equals("child")) {
+        if (wizardPrefs.getBoolean("child_present", false)) {
             stockpileItems.add(main.LangReader("wizard", 19, language)); // Child food
-        } else if (childStatus.equals("baby")) {
+        }
+        if (wizardPrefs.getBoolean("baby_present", false)) {
             stockpileItems.add(main.LangReader("wizard", 20, language)); // Milk
             stockpileItems.add(main.LangReader("wizard", 21, language)); // Diaper
         }
 
         // Pet specific
-        String petStatus = wizardPrefs.getString("pet_status", "");
-        if (petStatus.equals("yes")) {
+        if (wizardPrefs.getBoolean("pet_present", false)) {
             stockpileItems.add(main.LangReader("wizard", 22, language)); // Pet food
             stockpileItems.add(main.LangReader("wizard", 23, language)); // Pet water
         }
@@ -116,16 +116,44 @@ public class WizardResultFragment extends Fragment {
             String item = getItem(position);
             TextView textView = convertView.findViewById(R.id.text_view);
             CheckBox checkBox = convertView.findViewById(R.id.checkBox);
+            ImageView imageView = convertView.findViewById(R.id.img_item);
 
-            // Hide elements not used in this simplified view if necessary,
-            // but list_item has img_item and text_menber
-            View img = convertView.findViewById(R.id.img_item);
-            if (img != null) img.setVisibility(View.GONE);
+            // Hide member text not used in this view
             View member = convertView.findViewById(R.id.text_menber);
             if (member != null) member.setVisibility(View.GONE);
 
             textView.setText(item);
             checkBox.setChecked(checkedStates.get(position));
+
+            // Set illustration
+            if (imageView != null) {
+                imageView.setVisibility(View.VISIBLE);
+
+                // Content mapping based on LangReader results
+                if (item.equals(main.LangReader("wizard", 14, language))) {
+                    imageView.setImageResource(R.drawable.sinsui_img1); // Water placeholder
+                } else if (item.equals(main.LangReader("wizard", 15, language))) {
+                    imageView.setImageResource(R.drawable.sonae1); // Food placeholder
+                } else if (item.equals(main.LangReader("wizard", 16, language))) {
+                    imageView.setImageResource(R.drawable.kaityuu); // Flashlight
+                } else if (item.equals(main.LangReader("wizard", 17, language))) {
+                    imageView.setImageResource(R.drawable.mobairu); // Mobile Battery
+                } else if (item.equals(main.LangReader("wizard", 18, language))) {
+                    imageView.setImageResource(R.drawable.kyuukyuu); // Sanitary (as hygiene/first aid)
+                } else if (item.equals(main.LangReader("wizard", 19, language))) {
+                    imageView.setImageResource(R.drawable.fuku); // Child food placeholder
+                } else if (item.equals(main.LangReader("wizard", 20, language))) {
+                    imageView.setImageResource(R.drawable.baby); // Milk
+                } else if (item.equals(main.LangReader("wizard", 21, language))) {
+                    imageView.setImageResource(R.drawable.baby); // Diaper
+                } else if (item.equals(main.LangReader("wizard", 22, language))) {
+                    imageView.setImageResource(R.drawable.inu); // Pet food
+                } else if (item.equals(main.LangReader("wizard", 23, language))) {
+                    imageView.setImageResource(R.drawable.inu); // Pet water
+                } else {
+                    imageView.setVisibility(View.GONE);
+                }
+            }
 
             checkBox.setOnClickListener(v -> {
                 boolean isChecked = checkBox.isChecked();

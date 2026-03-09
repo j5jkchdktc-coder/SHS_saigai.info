@@ -1,58 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
     android:background="@color/white">
 
-    <TextView
-        android:id="@+id/wizard_gender_title"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="性別を選択してください"
-        android:textSize="24sp"
-        android:textColor="@color/black"
-        android:layout_marginBottom="24dp"
-        android:gravity="center" />
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <RadioGroup
-        android:id="@+id/gender_radio_group"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp">
-
-        <RadioButton
-            android:id="@+id/radio_male"
+        <!-- Question 1: Gender -->
+        <TextView
+            android:id="@+id/wizard_gender_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="男性"
-            android:textSize="18sp"
-            android:padding="12dp" />
+            android:text="性別を選択してください"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
 
-        <RadioButton
-            android:id="@+id/radio_female"
+        <RadioGroup
+            android:id="@+id/gender_radio_group"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="女性"
-            android:textSize="18sp"
-            android:padding="12dp" />
+            android:layout_marginBottom="24dp">
 
-        <RadioButton
-            android:id="@+id/radio_other"
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="男性"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="女性"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <RadioButton
+                android:id="@+id/radio_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="その他"
+                android:textSize="18sp"
+                android:padding="8dp" />
+        </RadioGroup>
+
+        <!-- Question 2: Children -->
+        <TextView
+            android:id="@+id/wizard_child_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="その他"
+            android:text="子供・赤ちゃんの有無"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
+
+        <CheckBox
+            android:id="@+id/check_child_present"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="子供がいる"
             android:textSize="18sp"
-            android:padding="12dp" />
-    </RadioGroup>
+            android:padding="8dp" />
 
-    <Button
-        android:id="@+id/btn_gender_next"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="次へ"
-        android:backgroundTint="@color/modoru"
-        android:textColor="@color/white" />
+        <CheckBox
+            android:id="@+id/check_baby_present"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="赤ちゃんがいる"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp" />
 
-</LinearLayout>
+        <!-- Question 3: Pets -->
+        <TextView
+            android:id="@+id/wizard_pet_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ペットの有無"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
+
+        <CheckBox
+            android:id="@+id/check_pet_present"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="いる"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/btn_wizard_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="結果を見る"
+            android:backgroundTint="@color/modoru"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</ScrollView>
