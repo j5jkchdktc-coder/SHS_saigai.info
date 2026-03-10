@@ -98,6 +98,26 @@
             android:text="いる"
             android:textSize="18sp"
             android:padding="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Question 4: Elderly -->
+        <TextView
+            android:id="@+id/wizard_elderly_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="高齢者の有無"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
+
+        <CheckBox
+            android:id="@+id/check_elderly_present"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="高齢者がいる"
+            android:textSize="18sp"
+            android:padding="8dp"
             android:layout_marginBottom="32dp" />
 
         <Button
