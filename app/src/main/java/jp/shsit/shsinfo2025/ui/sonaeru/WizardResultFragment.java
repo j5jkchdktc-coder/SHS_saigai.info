@@ -230,6 +230,7 @@ public class WizardResultFragment extends Fragment {
             if (imageView != null) {
                 imageView.setVisibility(View.VISIBLE);
 
+
                 // Mapping items to drawables
                 if (item.contains(main.LangReader("wizard", 14, language))) {
                     imageView.setImageResource(R.drawable.sinsui_img1); // Water
@@ -240,25 +241,52 @@ public class WizardResultFragment extends Fragment {
                 } else if (item.contains(main.LangReader("wizard", 17, language))) {
                     imageView.setImageResource(R.drawable.mobairu); // Mobile Battery
                 } else if (item.contains(main.LangReader("wizard", 18, language)) ||
-                           item.contains(main.LangReader("mochi", 57, language))) {
-                    imageView.setImageResource(R.drawable.kyuukyuu); // Sanitary / Women's items
+                        item.contains(main.LangReader("mochi", 57, language))) {
+                    imageView.setImageResource(R.drawable.kyuukyuu);
                 } else if (item.contains(main.LangReader("wizard", 19, language)) ||
-                           item.contains(main.LangReader("mochi", 69, language))) {
-                    imageView.setImageResource(R.drawable.fuku); // Child items
+                        item.contains(main.LangReader("mochi", 69, language))) {
+                    imageView.setImageResource(R.drawable.fuku);
                 } else if (item.contains(main.LangReader("wizard", 20, language)) ||
-                           item.contains(main.LangReader("wizard", 21, language)) ||
-                           item.contains(main.LangReader("mochi", 13, language))) {
-                    imageView.setImageResource(R.drawable.baby); // Baby items
+                        item.contains(main.LangReader("wizard", 21, language)) ||
+                        item.contains(main.LangReader("mochi", 13, language))) {
+                    imageView.setImageResource(R.drawable.baby);
                 } else if (item.contains(main.LangReader("wizard", 22, language)) ||
-                           item.contains(main.LangReader("wizard", 23, language)) ||
-                           item.contains(main.LangReader("mochi", 59, language))) {
-                    imageView.setImageResource(R.drawable.inu); // Pet items
+                        item.contains(main.LangReader("wizard", 23, language)) ||
+                        item.contains(main.LangReader("mochi", 59, language))) {
+                    imageView.setImageResource(R.drawable.inu);
                 } else if (item.contains(main.LangReader("mochi", 56, language))) {
-                    imageView.setImageResource(R.drawable.saigai2); // Elderly items placeholder
+                    imageView.setImageResource(R.drawable.saigai2);
                 } else if (item.contains(main.LangReader("wizard", 25, language))) {
-                    imageView.setImageResource(R.drawable.fuku); // Clothing
+                    imageView.setImageResource(R.drawable.fuku);
                 } else if (item.contains(main.LangReader("mochi", 58, language))) {
-                    imageView.setImageResource(R.drawable.sonae2); // Portable toilet placeholder
+                    imageView.setImageResource(R.drawable.sonae2);
+                } else {
+                    imageView.setVisibility(View.GONE);
+                }
+
+                // Content mapping based on LangReader results
+                if (item.equals(main.LangReader("wizard", 14, language))) {
+                    imageView.setImageResource(R.drawable.sinsui_img1); // 水
+                } else if (item.equals(main.LangReader("wizard", 15, language))) {
+                    imageView.setImageResource(R.drawable.sonae1); // 非常食
+                } else if (item.equals(main.LangReader("wizard", 16, language))) {
+                    imageView.setImageResource(R.drawable.kaityuu); // 懐中電灯
+                } else if (item.equals(main.LangReader("wizard", 17, language))) {
+                    imageView.setImageResource(R.drawable.mobairu); // モバイルバッテリー
+                } else if (item.equals(main.LangReader("wizard", 18, language))) {
+                    imageView.setImageResource(R.drawable.kyuukyuu); // Sanitary (as hygiene/first aid)
+                } else if (item.equals(main.LangReader("wizard", 19, language))) {
+                    imageView.setImageResource(R.drawable.fuku); // Child food placeholder
+                } else if (item.equals(main.LangReader("wizard", 20, language))) {
+                    imageView.setImageResource(R.drawable.baby); // Milk
+                } else if (item.equals(main.LangReader("wizard", 21, language))) {
+                    imageView.setImageResource(R.drawable.baby); // Diaper
+                } else if (item.equals(main.LangReader("wizard", 22, language))) {
+                    imageView.setImageResource(R.drawable.inu); // Pet food
+                } else if (item.equals(main.LangReader("wizard", 23, language))) {
+                    imageView.setImageResource(R.drawable.inu); // Pet water
+
+
                 } else {
                     imageView.setVisibility(View.GONE);
                 }
