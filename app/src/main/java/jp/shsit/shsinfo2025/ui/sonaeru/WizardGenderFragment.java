@@ -58,6 +58,13 @@ public class WizardGenderFragment extends Fragment {
         petTitle.setText(main.LangReader("wizard", 9, language));
         checkPet.setText(main.LangReader("wizard", 10, language));
 
+        // Question 4: Elderly
+        TextView elderlyTitle = root.findViewById(R.id.wizard_elderly_title);
+        CheckBox checkElderly = root.findViewById(R.id.check_elderly_present);
+
+        elderlyTitle.setText(main.LangReader("mochi", 73, language)); // "Select family composition" -> change to something better if available, or just use elderly
+        checkElderly.setText(main.LangReader("mochi", 80, language)); // "Elderly"
+
         // Result Button
         Button btnResult = root.findViewById(R.id.btn_wizard_result);
         btnResult.setText(main.LangReader("wizard", 12, language));
@@ -81,6 +88,9 @@ public class WizardGenderFragment extends Fragment {
         // Load Pet status
         checkPet.setChecked(prefs.getBoolean("pet_present", false));
 
+        // Load Elderly status
+        checkElderly.setChecked(prefs.getBoolean("elderly_present", false));
+
         btnResult.setOnClickListener(v -> {
             SharedPreferences.Editor editor = prefs.edit();
 
@@ -103,6 +113,9 @@ public class WizardGenderFragment extends Fragment {
 
             // Save Pet status
             editor.putBoolean("pet_present", checkPet.isChecked());
+
+            // Save Elderly status
+            editor.putBoolean("elderly_present", checkElderly.isChecked());
 
             editor.apply();
 
